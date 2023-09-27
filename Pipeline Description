@@ -1,3 +1,7 @@
+** A HUGE thank you to the entire EEGLab team, and Makato Miyakoshi, Laurel J. Gabard-Durnam, Adriana S. Mendez Leal, Carol L. Wilkinson, April R. Levin, Nima Bigdely-Shamlo, 
+Tim Mullen, Christian Kothe, Kyung-Min Su, and Kay A. Robbins for developing the tools I test here. The dedication and expertise needed to develop this software are not lost on me,
+and I think the entire EEG community is grateful to have folks like you helping us improve our research ability. ** 
+
 Here, I simply wanted to compare some analysis pipelines for EEG/ERP data in a dataset of two ERP tasks. 
 
 When analyzing EEG data, researchers are faced with a multitude of problems, for example:
