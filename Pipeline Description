@@ -1,0 +1,26 @@
+Here, I simply wanted to compare some analysis pipelines for EEG/ERP data in a dataset of two ERP tasks. 
+
+When analyzing EEG data, researchers are faced with a multitude of problems, for example:
+
+1) EEG data is noisy: head movements, eye blinks, poor cap fit, and numerous other factors can introduce noise to a recording. 
+2) Many labs are doing different things: currently, there is no one pipeline/method for analyzing EEG for ERPs.
+3) It can be both time-consuming and subjective. Traditionally, this analysis involves someone sitting in front of a computer, hand-selecting channels
+that are "bad" and choosing ICA components that "look like blinks". When this occurs, the time taken to analyze a participant increases with how "bad" the 
+data is. 
+
+As such, some labs (thankfully) have put a great deal of effort towards creating objective techniques to analyze EEG data. One example recent example is ICLabel, 
+a computationally efficient tool for characterizing ICA components as eye movements, muscle artifacts, etc. from Luca Pion-Tonachini, Ken Kreutz-Delgado and Scott Makeig (2019).
+Going further, some researchers have proposed tools to replace existing techniques for removing bad data, identifying ICA components, or just generally making EEG analysis
+easier and less "destructive".
+
+In this poster, my goal is to highlight some of these "automated" tools and how they behave when applied to a dataset with participants who completed two ERP tasks in one recording. 
+Here, I test the Makato, HAPPE, and PREP toolsets/pipelines. I do not intend to crown one method as a champion that all researchers should worship and embrace, but rather simply show 
+how they affect two commonly studied ERP components. At the end of the day, we need some understanding of how these techniques may affect a resulting signal, i.e. will changing 
+analysis methods change my interpretation of results? 
+
+The findings in my poster are interesting: at the least, these pipelines can alter the amplitude of these components. Further, it seems that the PREP pipeline has a high signal-to-noise
+ratio, and yields components with large amplitudes (an enticing benefit for ERP researchers). However, I do not intend to indicate that this means it is superior to other methods.
+
+I hope for feedback on two primary areas: 
+1) Other pipelines for me to test
+2) Metrics that YOU would find useful to compare these methods
