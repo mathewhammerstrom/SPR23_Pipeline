@@ -1,0 +1,25 @@
+In this poster, I wanted to highlight some things about participants in ERP studies that will impact almost everyone studying these components. 
+
+As such, I selected 4 participant characteristics to dive into that would 1) be present in practcially every participant in an ERP study, and 2) be realtively easy to obtain data on. 
+Age, reported gender, handedness, and hours of sleep are presented in this poster. 
+
+Age: It is not uncommon for the average psychology/neuroscience study to have a relatively young participant population, due to limitations of how participants are recruited at most universities. 
+As such, I think its important to understand how age might affect the observed EEG and ERP signals. Here, I show that age seems to affect both the P300 and Reward Positivity. 
+
+Gender: To be frank, the neuroscience dept at my university is largely focused on cellular neuroscience studies using rats, and as such sex differences are a common RQ. My cellular-inclined 
+colleagues have taught me to appreciate the differences, or lack thereof, between genders in the brain. Here, I show that this difference impacts the P300 moreso than the Reward positivity.
+
+Handedness: Given that these tasks are not explicitly "motor-focused", you may be surprised to see this inclusion. However, there is evidence from other labs that the P300 is larger for left-handed
+individuals, a result I replicate here. 
+
+Sleep: I am sure I am not alone in that, as an ERP researcher at a university, I have been occassionaly concerned with participants who show up for early morning experiments claiming that they
+"didn't even sleep last night". However, it seems my fears are relatively unwarranted. Here, I showed that the hours of sleep the participant had preceding the experiment had no effect on these ERP
+components. 
+
+My goal with this poster is to warn researchers that certain participant charactersitics may impact the resultant ERP components. In an extreme example, imagine if you were looking at how the amplitude of the 
+P300 was affected by a certain treatment, but your treatment group happened to be older than your control group. Any effects of that treatmnent could then potentially be attributed to Age, because of
+its affect on P300 amplitude, rather than the treatment. 
+
+Future work will focus on more participant characteristics, like vision correction, workplace/school-related stress, and other factors. 
+
+
