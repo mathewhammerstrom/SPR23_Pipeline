@@ -5,7 +5,7 @@
 % citing here. This code is NOT intended for publishing or widespread use
 % yet. I am sorry it is not well-commented :-(, will try to fix ASAP.
 
-%% Analysis Script to Test the Makato Pipeline
+%% Analysis Script to Test the Makoto Pipeline
 % Requires eeglab.
 clear all;
 close all;
