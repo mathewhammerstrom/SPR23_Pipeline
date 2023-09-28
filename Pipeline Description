@@ -1,5 +1,5 @@
 ** A HUGE thank you to the entire EEGLab team, and Makato Miyakoshi, Laurel J. Gabard-Durnam, Adriana S. Mendez Leal, Carol L. Wilkinson, April R. Levin, Nima Bigdely-Shamlo, 
-Tim Mullen, Christian Kothe, Kyung-Min Su, and Kay A. Robbins for developing the tools I test here. The dedication and expertise needed to develop this software are not lost on me,
+Tim Mullen, Christian Kothe, Kyung-Min Su, and Kay A. Robbins for developing the tools I test here. The dedication and expertise needed to develop this software is immense,
 and I think the entire EEG community is grateful to have folks like you helping us improve our research ability. ** 
 
 Here, I simply wanted to compare some analysis pipelines for EEG/ERP data in a dataset of two ERP tasks. 
@@ -7,12 +7,12 @@ Here, I simply wanted to compare some analysis pipelines for EEG/ERP data in a d
 When analyzing EEG data, researchers are faced with a multitude of problems, for example:
 
 1) EEG data is noisy: head movements, eye blinks, poor cap fit, and numerous other factors can introduce noise to a recording. 
-2) Many labs are doing different things: currently, there is no one pipeline/method for analyzing EEG for ERPs.
+2) Many labs are doing different things: currently, there is no one universal pipeline/method for analyzing EEG for ERPs.
 3) It can be both time-consuming and subjective. Traditionally, this analysis involves someone sitting in front of a computer, hand-selecting channels
 that are "bad" and choosing ICA components that "look like blinks". When this occurs, the time taken to analyze a participant increases with how "bad" the 
 data is. 
 
-As such, some labs (thankfully) have put a great deal of effort towards creating objective techniques to analyze EEG data. One example recent example is ICLabel, 
+As such, some labs (thankfully) have put a great deal of effort towards creating objective techniques to analyze EEG data. One recent example is ICLabel, 
 a computationally efficient tool for characterizing ICA components as eye movements, muscle artifacts, etc. from Luca Pion-Tonachini, Ken Kreutz-Delgado and Scott Makeig (2019).
 Going further, some researchers have proposed tools to replace existing techniques for removing bad data, identifying ICA components, or just generally making EEG analysis
 easier and less "destructive".
