@@ -99,6 +99,3 @@ for counter =  1:length(masterFileEEG)
     pause(5)
 end
 toc
-
-prepTest_CCA;
-mikatoTest_CCA;
