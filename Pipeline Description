@@ -28,3 +28,11 @@ ratio, and yields components with large amplitudes (an enticing benefit for ERP 
 I hope for feedback on two primary areas: 
 1) Other pipelines for me to test
 2) Metrics that YOU would find useful to compare these methods
+
+To try out the analysis scripts in this folder, you will need:
+1) MATLAB (preferably versions later than 2016a)
+2) EEGLAB and its related required MATLAB packages, such as the signal processing toolbox and statistics toolbox. 
+3) Our EEGLAB shell repos to run functions with command line calls, found at github.com/krigolson. 
+4) For HAPPE and PREP, the related github repositories, found at  https://github.com/lcnhappe for version 1 or https://github.com/PINE-Lab/HAPPE for new versions, and https://github.com/VisLab/EEG-Clean-Tools for PREP.
+
+
